@@ -10,3 +10,5 @@ c.setHost = "127.0.0.1";
 c.connect();
 let d = new MySqlManager();
 d.connect();
+
+console.log(a === b);
