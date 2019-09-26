@@ -11,4 +11,4 @@ c.connect();
 let d = new MySqlManager();
 d.connect();
 
-console.log(a === b);
+console.log(Object.is(a, b));
